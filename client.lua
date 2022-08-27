@@ -5,7 +5,6 @@ Citizen.CreateThread(function()
 
             SetBlipSprite(blip, Config.Blips[i].sprite)
             SetBlipDisplay(blip, 4)
-            print(Config.Blips[i].scale)
             SetBlipScale(blip, Config.Blips[i].scale)
             SetBlipColour(blip, Config.Blips[i].color)
             SetBlipAsShortRange(blip, true)
